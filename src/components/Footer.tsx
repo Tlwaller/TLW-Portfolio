@@ -7,9 +7,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-3 text-md">
           <div className="col-span-1 flex flex-col items-center">
             <div className="text-left">
-              {" "}
-              {/* Align text to the left */}
-              <h2 className="font-bold text-lg ">Trey Waller</h2>
+              <h2 className="text-lg ">Trey Waller</h2>
               <span className="text-black">
                 Passionate software engineer crafting
                 <br />
