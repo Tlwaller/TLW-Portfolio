@@ -20,15 +20,16 @@ const Footer: React.FC = () => {
               <h3 className="">Links</h3>
               <a
                 href="https://www.linkedin.com/in/trey-waller/"
-                target="_blank"
                 className="text-black hover:text-secondary transition-all"
+                rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
+
               <a
                 href="https://www.github.com/tlwaller"
-                target="_blank"
                 className="text-black hover:text-secondary transition-all"
+                rel="noopener noreferrer"
               >
                 Github
               </a>
