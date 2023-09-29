@@ -1,17 +1,16 @@
 // src/App.tsx
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from "react";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
-    <Router>
-      <div className="max-w-screen-md mx-auto my-auto">
+    <div className="page-container relative min-h-screen px-8 overflow-x-hidden">
+      <div className="max-w-screen-lg mx-auto my-auto pb-64">
         <Hero />
         <Footer />
       </div>
-    </Router>
+    </div>
   );
 };
 
