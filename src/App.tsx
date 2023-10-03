@@ -2,12 +2,12 @@
 import React from "react";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
-import ProjectList from "./components/Projects/ProjectList";
+import ProjectList from "./components/ProjectList";
 
 const App: React.FC = () => {
   return (
-    <div className="page-container relative min-h-screen px-8 overflow-x-hidden">
-      <div className="max-w-screen-lg mx-auto my-auto pb-64">
+    <div className="page-container relative min-h-screen overflow-x-hidden pb-96">
+      <div className="mx-auto my-auto w-full flex flex-col items-center">
         <Hero />
         <ProjectList />
         <Footer />
