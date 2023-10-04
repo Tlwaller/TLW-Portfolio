@@ -2,7 +2,7 @@
 import React from "react";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
-import ProjectList from "./components/ProjectList";
+import ProjectList from "./components/projects/ProjectList";
 
 const App: React.FC = () => {
   return (
