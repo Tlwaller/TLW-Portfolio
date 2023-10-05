@@ -4,6 +4,7 @@ import insAnalytics from "../../assets/insights/Insights Analytics.jpg";
 import insReport from "../../assets/insights/Insights Report.jpg";
 import sfLanding from "../../assets/spot-fiend/Spot Fiend Landing.png";
 import sfHome from "../../assets/spot-fiend/Spot Fiend Home.png";
+import cqLanding from "../../assets/concert-quest/Concert Quest Landing.png";
 import Project from "./Project";
 
 export interface ProjectInfo {
@@ -34,20 +35,22 @@ const Accordion: React.FC = () => {
     },
     {
       id: 2,
-      heading: "Spot-Fiend",
-      content: "Content for Spot-Fiend",
+      heading: "Spot Fiend",
+      content:
+        "Spot Fiend, a platform for skaters, streamlines spot sharing and discovery. Using React, JS, Sass, NodeJS, and PostgreSQL, it offers an interactive map (Mapbox and Google Maps) for finding nearby spots. Users create spots, upload images via Cloudinary, and pinpoint locations with Google Maps Geocoding API, all showcased on the map. Manage and personalize posted spots with ease.",
       images: [
-        { alt: "Spot-Fiend Landing", image: sfLanding },
-        { alt: "Spot-Fiend Home Page", image: sfHome },
+        { alt: "Spot Fiend Landing", image: sfLanding },
+        { alt: "Spot Fiend Home Page", image: sfHome },
       ],
       year: "2019",
       stack: "React, JavaScript, NodeJS, PostgreSQL",
     },
     {
       id: 3,
-      heading: "Concert-Quest",
-      content: "Content for Concert-Quest",
-      images: [],
+      heading: "Concert Quest",
+      content:
+        "Concert Quest, a web app for music lovers, streamlines concert discovery. It utilizes BandsInTown API to display upcoming concerts for a chosen artist. Users can save favorites, aiding in tracking new announcements. Developed using React, Node, Express, and PostgreSQL, ensuring a delightful user journey.",
+      images: [{ alt: "Concert Quest Landing", image: cqLanding }],
       year: "2019",
       team: "Madelyn Arsenault, Noel Contreras",
       stack: "React, JavaScript, NodeJS, PostgreSQL",
