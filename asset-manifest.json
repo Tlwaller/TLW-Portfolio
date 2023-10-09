@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d029e7de.css",
+    "main.js": "/static/js/main.aa39095b.js",
+    "static/js/787.290f94c6.chunk.js": "/static/js/787.290f94c6.chunk.js",
+    "static/media/Boom Headshot.JPG": "/static/media/Boom Headshot.42f504eb8e8a9f0aabfb.JPG",
+    "static/media/Spot Fiend Landing.png": "/static/media/Spot Fiend Landing.6e3668c03ad28f653567.png",
+    "static/media/Spot Fiend Home.png": "/static/media/Spot Fiend Home.8d165c654b8df8caafc5.png",
+    "static/media/Concert Quest Landing.png": "/static/media/Concert Quest Landing.c1e5327622a8a1c50d6f.png",
+    "static/media/Insights Report.jpg": "/static/media/Insights Report.389726194bbd4368a6e6.jpg",
+    "static/media/Insights Dashboard.jpg": "/static/media/Insights Dashboard.8e6b5701aff89d62249f.jpg",
+    "static/media/Insights Analytics.jpg": "/static/media/Insights Analytics.2b696c91e9dac6f084e8.jpg",
+    "static/media/Apercu-Bold.woff": "/static/media/Apercu-Bold.ce2302a886506cacae88.woff",
+    "static/media/Apercu Regular.woff": "/static/media/Apercu Regular.60f7252455ebe2ef0f39.woff",
+    "index.html": "/index.html",
+    "main.d029e7de.css.map": "/static/css/main.d029e7de.css.map",
+    "main.aa39095b.js.map": "/static/js/main.aa39095b.js.map",
+    "787.290f94c6.chunk.js.map": "/static/js/787.290f94c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d029e7de.css",
+    "static/js/main.aa39095b.js"
+  ]
+}
