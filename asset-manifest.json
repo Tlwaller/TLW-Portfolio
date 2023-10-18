@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2dc8970.css",
-    "main.js": "/static/js/main.199bb61e.js",
+    "main.css": "/static/css/main.3db60c11.css",
+    "main.js": "/static/js/main.9b10336f.js",
     "static/js/787.290f94c6.chunk.js": "/static/js/787.290f94c6.chunk.js",
     "static/media/Boom Headshot.JPG": "/static/media/Boom Headshot.42f504eb8e8a9f0aabfb.JPG",
     "static/media/Spot Fiend Landing.png": "/static/media/Spot Fiend Landing.6e3668c03ad28f653567.png",
@@ -13,12 +13,12 @@
     "static/media/Apercu-Bold.woff": "/static/media/Apercu-Bold.ce2302a886506cacae88.woff",
     "static/media/Apercu Regular.woff": "/static/media/Apercu Regular.60f7252455ebe2ef0f39.woff",
     "index.html": "/index.html",
-    "main.e2dc8970.css.map": "/static/css/main.e2dc8970.css.map",
-    "main.199bb61e.js.map": "/static/js/main.199bb61e.js.map",
+    "main.3db60c11.css.map": "/static/css/main.3db60c11.css.map",
+    "main.9b10336f.js.map": "/static/js/main.9b10336f.js.map",
     "787.290f94c6.chunk.js.map": "/static/js/787.290f94c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2dc8970.css",
-    "static/js/main.199bb61e.js"
+    "static/css/main.3db60c11.css",
+    "static/js/main.9b10336f.js"
   ]
 }
