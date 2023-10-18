@@ -4,7 +4,10 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-primary w-screen p-6 flex items-center justify-center bottom-0 absolute left-0 text-left text-2xl md:text-base">
       <div className="max-w-screen-lg w-full">
-        <div className="grid grid-rows-3 grid-cols-1 text-md md:grid-cols-3 md:grid-rows-1 gap-4">
+        <div
+          className="flex flex-col grid-rows-3 grid-cols-1 text-md gap-4
+          md:grid md:grid-cols-3 md:grid-rows-1"
+        >
           <div className="col-span-1 flex flex-col items-start md:items-center">
             <div className="text-left">
               <h2 className=" text-2xl md:text-lg">Trey Waller</h2>
