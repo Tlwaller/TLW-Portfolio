@@ -7,7 +7,7 @@ import ProjectList from "./components/projects/ProjectList";
 const App: React.FC = () => {
   return (
     <div className="page-container relative min-h-screen overflow-x-hidden pb-96">
-      <div className="mx-auto my-auto w-full flex flex-col items-center">
+      <div className="mx-auto my-auto w-full flex flex-col items-center px-4 pb-72 md:pb-0">
         <Hero />
         <ProjectList />
         <Footer />

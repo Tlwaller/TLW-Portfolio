@@ -13,25 +13,25 @@ const Project: React.FC<ProjectProps> = ({ ref, activeItem, item }) => {
         activeItem === item.id ? "max-h-screen p-6" : "max-h-0"
       } transition-max-height w-screen flex flex-col items-center text-accent`}
     >
-      <div className="max-w-screen-lg w-screen">
-        <div className="flex flex-row justify-between items-start pb-6">
+      <div className="max-w-screen-lg w-screen px-6">
+        <div className="flex flex-col md:flex-row justify-between items-start pb-6">
           <div className="flex flex-col flex-grow">
-            <div className="flex items-start w-2/3 mb-6">
+            <div className="flex items-start w-full md:w-2/3 justify-between mb-6">
               <h2 className="text-xl font-bold text-black mr-14">Year</h2>
-              {item.year}
+              <span className="w-1/3">{item.year}</span>
             </div>
             {item.team && (
-              <div className="flex items-start w-2/3 mb-6">
+              <div className="flex items-start w-full md:w-2/3 justify-between mb-6">
                 <h2 className="text-xl font-bold text-black mr-12">Team</h2>
-                {item.team}
+                <span className="w-1/3">{item.team}</span>
               </div>
             )}
-            <div className="flex items-start w-2/3">
+            <div className="flex items-start w-full md:w-2/3 justify-between">
               <h2 className="text-xl font-bold text-black mr-12">Stack</h2>
-              {item.stack}
+              <span className="w-1/3">{item.stack}</span>
             </div>
           </div>
-          <p className="text-xl w-7/12">{item.content}</p>
+          <p className="text-xl my-6 md:w-7/12">{item.content}</p>
         </div>
         <img
           src={item.images.length ? item.images[0].image : ""}

@@ -3,8 +3,8 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <header className="max-w-screen-lg">
-      <h1 className="text-9xl text-primary mt-12 mb-6">Welcome.</h1>
+    <header className="max-w-screen-lg w-screen px-4">
+      <h1 className="text-6xl font-bold text-primary mt-12 mb-6">Welcome.</h1>
       <p className="text-secondary text-2xl leading-9">
         Hey, I'm Trey—an enthusiast of all things tech. From crafting my initial
         website at DevMountain to spearheading groundbreaking projects like

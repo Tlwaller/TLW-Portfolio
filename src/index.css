@@ -22,6 +22,7 @@ body {
   background-size:cover;
   background-attachment: fixed;
   background-position-y: center;
+  background-position-x: center;
   margin: 0;
   font-family: 'Apercu', sans-serif;
   -webkit-font-smoothing: antialiased;

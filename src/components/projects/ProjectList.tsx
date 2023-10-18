@@ -77,13 +77,13 @@ const Accordion: React.FC = () => {
       {items.map((item) => (
         <div key={item.id} className="select-none overflow-hidden">
           <section
-            className={`flex flex-col justify-between items-center p-6 cursor-pointer ${
+            className={`flex flex-col justify-between items-center py-6 cursor-pointer ${
               activeItem === item.id ? "text-secondary" : "text-primary"
             }`}
             onClick={() => toggleAccordion(item.id)}
           >
             <h1
-              className="text-6xl font-bold hover:text-secondary transition-all cursor-pointer max-w-screen-lg w-screen"
+              className="text-6xl font-bold hover:text-secondary transition-all cursor-pointer max-w-screen-lg w-screen px-4"
               onClick={scrollToProject}
             >
               {item.heading}
